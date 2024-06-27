@@ -1,20 +1,24 @@
-import React from 'react'
-import Link from 'next/link'
-import {AiFillInstagram, AiOutlineTwitter, AiFillLinkedin} from 'react-icons/ai'
+import Link from "next/link";
+import React from "react";
+import {
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>Copyright ⓒ 2023.Ram Book Store.All rights reserved</p>
+      <p>Copyright ⓒ 2023.Book Store.All rights reserved</p>
       <p className="icons">
-        <Link href="https://www.linkedin.com/in/ram-mohan-patel-1b5597220/">
-        <AiFillLinkedin/>
+        <Link href="https://www.linkedin.com/in/debraj-das-dev/">
+          <AiFillLinkedin />
         </Link>
-        <AiOutlineTwitter/>
-        <AiFillInstagram/>      
+        <AiOutlineTwitter />
+        <AiFillInstagram />
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
