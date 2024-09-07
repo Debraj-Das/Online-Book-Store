@@ -1,5 +1,5 @@
 {
-  "name": "hello-sanity-nextjs-starter",
+  "name": "@online/book-store",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -27,6 +27,7 @@
     "slick-carousel": "^1.8.1",
     "stripe": "^12.13.0"
   },
+  "author": "Debraj Das",
   "license": "MIT",
   "keywords": [],
   "description": ""
